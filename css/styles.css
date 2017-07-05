@@ -1,7 +1,7 @@
 #rotating-item-wrapper {
     position: relative;
     width: 670px;
-    height: 367px;
+    height: 420px;
     -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
@@ -13,6 +13,8 @@
     top: 10px;
     left: 10px;
 }
+
+
 
 #top {
   margin-top: 30px;
@@ -43,6 +45,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 18px;
+  width: 400px;
+}
+
+#text {
+  padding-left: 20px;
 }
 
 #about-us {
@@ -159,16 +166,18 @@ h6 {
 
 #mission-body {
   text-align: center;
+  border: 1px solid lightgrey;
 }
 
 #vision-body {
   text-align: center;
+  border: 1px solid lightgrey;
 }
 
 #apply {
   background-color: blue;
   color: white;
-  width: 250px;
+  width: 400px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
@@ -177,7 +186,7 @@ h6 {
 #come {
   background-color: green;
   color: white;
-  width: 250px;
+  width: 400px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
