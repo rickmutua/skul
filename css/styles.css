@@ -1,0 +1,184 @@
+#rotating-item-wrapper {
+    position: relative;
+    width: 670px;
+    height: 367px;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background-color: white;
+}
+.rotating-item {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#top {
+  margin-top: 30px;
+}
+
+#nav {
+  background-color: blue;
+  padding-bottom: 5px;
+}
+
+.button {
+  color: white;
+}
+
+#school-name {
+  color: blue;
+  font-size: 22px;
+}
+
+#motto {
+  font-style: italic;
+}
+
+#welcome {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+#about-us {
+  border-bottom: 1px solid purple;
+  color: blue;
+}
+
+#about {
+
+}
+
+#history {
+  border-bottom: 1px dotted purple;
+}
+
+#philosophy {
+  border-bottom: 1px dotted purple;
+}
+
+#philo {
+  margin-left: 10px;
+}
+
+#footer {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contact {
+  color: blue;
+  border-bottom: 1px solid purple;
+}
+
+#visit {
+  color: blue;
+  border-bottom: 1px solid purple;
+}
+
+#contact-us {
+  border: 1px solid lightgrey;
+  width: 545px;
+}
+
+#visit-us {
+  border: 1px solid lightgrey;
+  margin-left: 10px;
+  width: 545px;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: blue;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+h6 {
+  font-weight: bold;
+  color: blue;
+  font-style: italic;
+}
+
+#the-school {
+  border-bottom: 1px solid purple;
+}
+
+#admi {
+  border-bottom: 1px solid purple;
+}
+
+#news-and-events {
+  border-bottom: 1px solid purple;
+}
+
+#fun {
+  border-bottom: 1px dotted lightblue;
+}
+
+#community {
+  border-bottom: 1px dotted lightblue;
+}
+
+#news-events {
+  border: 1px solid lightgrey;
+}
+
+#upcoming-events {
+  border: 1px solid lightgrey;
+  margin-left: 10px;
+  border-bottom: 1px solid purple;
+}
+
+#welcome-admission {
+  font-size: 20px;
+}
+
+#mission {
+  text-align: center;
+  border-bottom: 1px dotted purple;
+}
+
+#vision {
+  text-align: center;
+  border-bottom: 1px dotted purple;
+}
+
+#mission-body {
+  text-align: center;
+}
+
+#vision-body {
+  text-align: center;
+}
+
+#apply {
+  background-color: blue;
+  color: white;
+  width: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#come {
+  background-color: green;
+  color: white;
+  width: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
