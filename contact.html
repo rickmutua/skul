@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale, maximum-scale, user-scalable">
 
           <!--custom bootstrap css -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -28,42 +28,51 @@
        <img src="images/logo.png" alt="LOGO" style="width: 100px; height:100px;">
      </div>
 
-     <div id="school-name" style="text-align: center;">
+     <div id="school-name" style="text-align: center; padding-top: 10px;">
         <p>REV MUTHURI DAY AND BOARDING PRIMARY SCHOOL</p>
      </div>
 
-     <div id="motto" style="text-align: center; padding-top: 10px;">
+     <div id="motto" style="text-align: center;">
          <p>"Morality in Scaling Heights"</p>
      </div>
 
+<nav>
 
      <div class="row" id="nav" style="padding-top: 20px; text-align: center;">
 
-       <div class="col-md-2">
-         <a href="index.html" class="button">HOME</a>
-       </div>
+       <div class="col-md-5ths col-xs-6" id="a">
+          <a href="index.html" class="btn input-block-level" style="color: white;">HOME</a>
+        </div>
 
-       <div class="col-md-2">
-         <a href="about.html" class="button">ABOUT US</a>
-       </div>
+        <div class="col-md-5ths col-xs-6" id="e">
+           <a href="about.html" class="btn input-block-level" style="color: white;">ABOUT US</a>
+        </div>
 
-       <div class="col-md-2">
-         <a href="admission.html" class="button">ADMISSIONS</a>
-       </div>
+        <div class="col-md-5ths col-xs-6" id="i">
+           <a href="admission.html" class="btn input-block-level" style="color: white;">ADMISSIONS</a>
+        </div>
 
-       <div class="col-md-2">
-         <a href="curriculum.html" class="button">CURRICULUM</a>
-       </div>
+        <div class="col-md-5ths col-xs-6" id="o">
+           <a href="news.html" class="btn input-block-level" style="color: white;">NEWS & EVENTS</a>
+        </div>
 
-       <div class="col-md-2">
-         <a href="news.html" class="button">NEWS & EVENTS</a>
-       </div>
-
-       <div class="col-md-2">
-         <a href="contact.html" class="button">CONTACT</a>
-       </div>
+        <div class="col-md-5ths col-xs-6" id="u">
+           <a href="contact.html" class="btn input-block-level" style="color: white;">CONTACT US</a>
+        </div>
 
      </div>
+
+       <select style="text-align: right;">
+          <option value="" selected="selected">Select</option>
+
+          <option value=<a href="index.html" class="btn input-block-level" style="color: white;">HOME</a></option>
+          <option value=<a href="about.html">ABOUT US</a></option>
+          <option value=<a href="admission.html">ADMISSIONS</a></option>
+          <option value=<a href="news.html">NEWS & EVENTS</a></option>
+          <option value=<a href="contact.html">CONTACT US</a></option>
+       </select>
+
+ </nav>
 
    </div>
 
@@ -118,7 +127,9 @@
            <h3>VISIT US</h3>
          </div>
 
-         <img src="images/location.jpg" alt="location" style="padding-top: 25px;">
+         <iframe width="100%" height="350" frameborder="0" style="border:0"
+           src="https://www.google.com/maps/embed/v1/view?zoom=8&center=0.0532%2C37.6389&key=AIzaSyDi3-DHiz6MPGPL5DqaXBIN2msHgC-IXeA" allowfullscreen>
+          </iframe>
 
          <br>
          <br>
@@ -132,9 +143,9 @@
 
        </div>
 
-     </div>
+    </div>
 
-   </div>
+ </div>
 
    <div class="container" id="footer">
      <p>Rev Muthuri Day and Boarding Primary School (c) 2017</p>

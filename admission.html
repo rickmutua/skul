@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale, maximum-scale, user-scalable">
 
           <!--custom bootstrap css -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 
   <div class="container">
 
-   <div class="container" id="top">
+   <div class="container" id="top" style="">
 
      <div id="logo" style="text-align: center;">
        <img src="images/logo.png" alt="LOGO" style="width: 100px; height:100px;">
@@ -39,29 +39,25 @@
 
      <div class="row" id="nav" style="padding-top: 20px; text-align: center;">
 
-       <div class="col-md-2">
-         <a href="index.html" class="button">HOME</a>
-       </div>
+       <div class="col-md-5ths col-xs-6" id="a">
+          <a href="index.html" class="btn input-block-level" style="color: white;">HOME</a>
+        </div>
 
-       <div class="col-md-2">
-         <a href="about.html" class="button">ABOUT US</a>
-       </div>
+        <div class="col-md-5ths col-xs-6" id="e">
+           <a href="about.html" class="btn input-block-level" style="color: white;">ABOUT US</a>
+        </div>
 
-       <div class="col-md-2">
-         <a href="admission.html" class="button">ADMISSIONS</a>
-       </div>
+        <div class="col-md-5ths col-xs-6" id="i">
+           <a href="admission.html" class="btn input-block-level" style="color: white;">ADMISSIONS</a>
+        </div>
 
-       <div class="col-md-2">
-         <a href="curriculum.html" class="button">CURRICULUM</a>
-       </div>
+        <div class="col-md-5ths col-xs-6" id="o">
+           <a href="news.html" class="btn input-block-level" style="color: white;">NEWS & EVENTS</a>
+        </div>
 
-       <div class="col-md-2">
-         <a href="news.html" class="button">NEWS & EVENTS</a>
-       </div>
-
-       <div class="col-md-2">
-         <a href="contact.html" class="button">CONTACT</a>
-       </div>
+        <div class="col-md-5ths col-xs-6" id="u">
+           <a href="contact.html" class="btn input-block-level" style="color: white;">CONTACT US</a>
+        </div>
 
      </div>
 
@@ -76,7 +72,7 @@
        <div class="row" style="padding-top: 20px;">
 
          <div class="col-md-6">
-           <img src="images/admission.jpg" style="width: 500px; height: 400px;">
+           <img src="images/admission.jpg" class="img-responsive" style="width: 500px; height: 400px;">
          </div>
 
          <div class="col-md-6">
@@ -86,8 +82,11 @@
         </div>
 
            <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             NOTE: A complete and signed application, with the appropriate application fee, must be submitted for each student before admitted.
+             After taking placement assessment tests, results will be reported to the parents within a couple of days. An interview with a school
+             administrator maybe required, and preferably both parents accompany the student to this interview. Official acceptance is based on
+             placement assessment test scores, personal interview results and the availability of enrollment space.  The Green Garden Schools
+             admits students of any race, color, and national or ethnic origin.
            </p>
 
            <p>
@@ -99,6 +98,32 @@
 
        </div>
      </div>
+
+  <div class="enquiry">
+
+  <div id="form-main">
+   <div id="form-div">
+     <form class="form" id="form1" method="post" action="send.php">
+
+       <p class="name">
+         <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+       </p>
+
+       <p class="email">
+         <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+       </p>
+
+       <p class="text">
+         <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+       </p>
+
+
+       <div class="submit">
+         <input type="submit" value="SEND" id="button-blue"/>
+         <div class="ease"></div>
+       </div>
+     </form>
+   </div>
 
      <div class="container" id="footer">
        <p>Rev Muthuri Day and Boarding Primary School (c) 2017</p>
