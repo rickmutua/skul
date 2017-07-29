@@ -6,6 +6,7 @@
     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     background-color: white;
+    margin-left: 5px;
 }
 .rotating-item {
     display: none;
@@ -165,11 +166,14 @@ h6 {
 #mission-body {
   text-align: center;
   border: 1px solid lightgrey;
+  margin-right: 17.5px;
+  margin-left: 10px;
 }
 
 #vision-body {
   text-align: center;
   border: 1px solid lightgrey;
+  margin-left: 17.5px;
 }
 
 #apply {
